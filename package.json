@@ -1,0 +1,39 @@
+{
+  "name": "ts_express_boilerplate",
+  "version": "1.0.0",
+  "description": "express server from TS to ES6",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node server/index.js",
+    "dev": "set NODE_ENV=development && nodemon dev-server/index.ts",
+    "build-serv": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PYKEngine/TS_Express_Boilerplate.git"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "PYKEngine - Kevin Petitnicolas-Yoeusley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PYKEngine/TS_Express_Boilerplate/issues"
+  },
+  "homepage": "https://github.com/PYKEngine/TS_Express_Boilerplate#readme",
+  "dependencies": {
+    "@types/mongoose": "^5.5.32",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.14",
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
